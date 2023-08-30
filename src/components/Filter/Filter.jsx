@@ -21,5 +21,6 @@ export default class Filter extends Component {
 }
 
 Filter.propTypes = {
+  filter: PropTypes.string.isRequired,
   handleSearch: PropTypes.func.isRequired,
 };
